@@ -1,0 +1,169 @@
+* { 
+    padding:0;
+    margin:0; 
+    font-family: sans-serif;
+    }
+    
+h1{
+    color:rgb(2, 8, 117) ;
+    margin-top: 30px;
+    
+} 
+.desend > h1{
+  color: red;
+}
+body{
+    padding: 120px;
+}
+ul li{
+    color:red;
+}
+.blue{
+    color:blue
+}
+#pink{
+    color:rgb(171, 117, 126);
+}
+button[type="submit"]{
+  background-color: blue;
+  
+}
+h3, p{
+    color:rgb(56, 109, 3);
+    font-weight: bold;
+    font-style: italic;
+    
+}
+/* body{
+  background-color: black;
+} */
+.inherit{
+  color:#FFCC00
+}
+.inherit p{
+  color:inherit 
+}
+/* intrinsic vs extrinsic */
+.extrinsic, .intrinsic {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1;
+    border: 5px solid;
+    padding: 2rem;
+    width: 200px;
+  }
+  
+  .intrinsic {
+    width: min-content;
+  }
+
+  .flowerEx{
+    width:300px;
+    border:5px solid;
+    width: min-content;
+  }
+  .flowerEx_img img{
+    width: 400px;
+  }
+
+
+  /* box model */
+  .box_model{
+    /* box-sizing: border-box; */
+    width:400px;
+    height:200px; 
+    padding:50px;
+    border: 10px solid black;
+    background-color: blue;
+    margin: 50px;
+    
+    
+  }
+
+.background{
+  width:400px;
+  height:200px;
+  padding: 20px;
+  border:5px solid black;
+  background-color: yellow;
+  background-image: url(./images/andmta_logo.jpg);
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-position:100px;
+  background-position-x: center;
+  background-attachment: fixed;
+  background-attachment: scroll;
+
+}
+
+body{
+  background-image: url(./images/andmta_logo.jpg);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+}
+.text{
+  color:red;
+  direction: rtl;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-indent: 20px;
+  /* text-align: center; */
+  /* text-decoration: overline; */
+  text-decoration: line-through;
+  /* text-decoration: underline; */
+  text-transform:capitalize;
+  /* text-transform:uppercase; */
+  /* text-transform:lowercase; */
+  text-shadow:4px 4px 8px blue
+  
+
+
+}
+.text-2{
+  /* white-space: normal; */
+  /* white-space: nowrap; */
+  /* white-space: pre; */
+  /* white-space: pre-wrap; */
+  white-space: pre-line;
+ 
+}
+.font{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-style:normal;
+  font-style:italic;
+  /* font-variant: small-caps; */
+  font-weight:900;
+  /* font-weight: lighter; */
+  font-size:25px;
+  
+}
+#image img{
+  border:3px dashed red;
+  /* height:200px; */
+  width:300px;
+  opacity:0.5;
+
+}
+a{
+  font-size: 30px;
+  font-weight: bold;
+}
+a:link {color: #030303} 
+   a:visited {color: #ff1908}
+   a:hover {color: #FFCC00}
+   a:active {color: #FF00CC}
+ul li{
+  /* margin: 30px; */
+  /* list-style-type:none; */
+  /* list-style-type:square; */
+  list-style-type:upper-roman;
+  /* list-style-type:decimal-leading-zero; */
+  list-style-position:inside;
+  /* list-style-position:outside; */
+  /* list-style-position:none; */
+  list-style-image: url(/images/icon.png);
+}
+
