@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Andmta CSS Pracice 1</title>
+    <link rel="icon" href="./images/Andmta_logo icon.png">
     
     <style type = "text/css" media = "all">
         body {
@@ -19,92 +20,157 @@
 
 </head>
 <body>
-    <h1>for tag selector</h1>
-    <h1>for The Descendant Selectors</h1>
-  
-        <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ul>
-        <div class="desend">
-            <h1>Desendant child</h1>
-        </div>
+    <div id="mainins">use this practice code to practice basic CSS, read the instructions on yellow background and apply them to your code </div>
+    <div id="mainins">make a replica of this website excluding all the red and yellow backgroud instructions</div>
+    <div id="mainins">all the titles are in "h1" tag</div>
+    <div id="mainins"></div>
     
+    <div id="command">Instruction:-</div>
+    <div id="command">Instruction:- start by linking the html file with your css file</div>
+    <div id="command">Instruction:- use universal selector and give both padding and marign value of "0"</div>
+    <div id="command">Instruction:- use tag selector and for body tag give {padding-left:70px;font-family: sans-serif;}</div>
+    <div id="command">Instruction:- add the text below by using h1 tag and use tag selector give {color:rgb(2, 10, 172) ;
+        margin-top: 20px;}</div>
+    <h1>For tag selector</h1>
+
+    
+   
+    <div id="command">Instruction:- add the text below by using h1 tag and give a class name of "blue", use class selector and give property {color:blue}</div>
+
     <h1 class="blue">for The Class Selectors</h1>
-    <h1 id="pink">for The The ID Selectors</h1>
+
+<div id="command">Instruction:- add the text below by using h1 tag and give an ID of "pink", use ID selector and give property {color:#FF00CC;}</div>
+        <h1 id="pink">for The The ID Selectors</h1>
+
+    
+                
     <h1>for attribute selectors</h1>
-    <button type="submit">Button</button>
-    <button>Button</button>
+        <div id="command">Instruction:-add two buttos below and give submit attribute for one of them only, use attribute selector and give a property of { background-color: blue; color:white; } </div>
+
+                <button type="submit">Button</button>
+                <button>Button</button>
+
+
+
+    <h1>For The Descendant Selectors</h1>
+                <div id="command">Instruction:- add an unordered list below to list the three consecutive numbers, give an ID of "parent" for the parent tag, use descendant selector with ID of the parent and tag name of child and give the property of {color:blueviolet;list-style-type:square;  list-style-image: none;}</div>
+                    <ul id="parent">
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                    </ul>
+                   
 
     <h1>for Grouping Selectors</h1>
-        <h3>group one title</h3>
-        <P>group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text group one text </P>
+                <div id="command">Instruction:- add a text below by using h3 tag for the title and p tag for the paragraph, use group selector to select both title and paragraph and give the property of {color:rgb(56, 109, 3);
+                    font-weight: bold;} </div>
+                    <h3>Title</h3>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </P>
+
+                    <div id="command">Instruction:- add the text below in h2 tag and give the inline CSS styling of color:rgb(245, 116, 11); </div>                
         <h2 style = "color:rgb(245, 116, 11);"> 
-            This is inline CSS 
-         </h2>
-         <h1>Inheritance example</h1>
-         <div class="inherit">
-             <p>Text item with inherit property, the font color dosent assigned directly to this "p" tag, rather it inherit from the parent div with inherit class.
-         </div>
-    <h1>Box Model</h1>
-    <h2>Content and sizing</h2>
-    <h3>extrinsic sizing and intrinsic sizing</h3>
-    <p>extrinsic sizing example</p>
-    <p class="extrinsic">extrinsic sizing </p>
-    <p>intrinsic sizing example</p>
-    <p class="intrinsic">intrinsic sizing </p>
+                        This is inline CSS 
+                    </h2>
+                    <div id="command">Instruction:-add an embedded CSS on the html to give body background-color: linen;</div>
+        <h1>Inheritance example</h1>
 
-    <div class="flowerEx">
-        <div class="flowerEx_img">
-            <img src="http://source.unsplash.com/CiFaYIvZyyA/800" alt="A purple Petunia flower in close focus" />
-        </div>
-        <div class="flowerEx_text"><p>You can edit this text to see how it changes the layout of our box,
-            depending on intrinsic and extrinsic sizing.</p></div>
-    </div>
-    
-    <div >
+                    <div id="command">Instruction:- add a paragraph below with p tag and wrap in another div element , give a classs name of "inherit" for the parent div, use inherit property to give {color:brown;}</div>
+                    <div class="inherit">
+                        <p>Text item with inherit property, the font color dosent assigned directly to this "p" tag, rather it inherit from the parent div with inherit class.
+                    </div>
+
+                    
         <h1>Box Model</h1>
-        <h3>example of box model</h3>
-        <p> the original image is the red box below, and the image below it is customized to enumerate box model with blue background color  yellow boarder and marigin.the background color is visible because the image has padding around it</p>
-        <img src="./images/box model.PNG">
-    </div>
-    <div class="box_model">
-        <img src="./images/box model.PNG">
-    </div>
-    <h1>Background</h1>
-    <div class="background">
-        example of background image with centered non repeating image
+                <h2>Content and sizing</h2>
+                <h3>extrinsic sizing and intrinsic sizing</h3>
+            <p>extrinsic sizing example</p>
+            <div id="command">Instruction:-add a text below in p tag, give a class name of 'sizing', and give a property of{text-transform: uppercase;
+                font-size: 5rem;
+                border: 5px solid;
+                width: 200px;} </div>
+                <p class="sizing">extrinsic</p>
+                
+            <p>intrinsic sizing example</p>
+            <div id="command">Instruction:- add a text below in p tag, give a class name of sizing and intrinsic, select class name of intrinsic in your styling and give a property of{width: min-content;} </div>
+                <p class="sizing intrinsic">intrinsic</p>
 
-    </div>
-    <div class="text">
-    <h1>CSS text</h1>
-    <p>sample text</p>
-    </div>
-    <p class="text-2">
-        This is some text. This is some text. This is some text.
-        This is some text. This is some text. This is some text.
-        This is some text. This is some text. This is some text.        This is some text. This is some text. This is some text.
-        </p>
+<!--                 
+                <div id="command">Instruction:-</div>
+                <div class="flowerEx">
+                    <div class="flowerEx_img">
+                        <img src="http://source.unsplash.com/CiFaYIvZyyA/800" alt="A purple Petunia flower in close focus" />
+                    </div>
+                    <div class="flowerEx_text"><p>You can edit this text to see how it changes the layout of our box,
+                        depending on intrinsic and extrinsic sizing.</p></div>
+                </div> -->
+                
+                <div >
+                    
+                    <h1>Box Model</h1>
+                    <h3>example of box model</h3>
+                    <p> the original image is the red box below, and the image below it is customized to enumerate box model with blue background color  yellow boarder and marigin.the background color is visible because the image has padding around it</p>
+                    <div id="command">Instruction:- download the red box below</div>
+                    <img src="./images/box model.PNG">
+                </div>
+                <div id="command">Instruction:- add the box you downloaded above inside a div element, give a class name of 'box_model' to the parent div, and give a property of {
+                    width:400px;
+                    height:200px; 
+                    padding:50px;
+                    border: 10px solid black;
+                    background-color: blue;
+                    margin: 50px;
+                  }, try to understand how box model works</div>
+                <div class="box_model">
+                    <img src="./images/box model.PNG">
+                </div>
+        <h1>For Background</h1>
+        <div id="command">Instruction:- add div element and give a class name of background, give a property of{width:400px;height:200px;}, give yellow background color,give a background image <a href="https://i.ibb.co/JsLXYgZ/andmta-logo.jpg" target="_blank">click to download image</a>, put the background image as shown below,(do not add the image directly on HTML) </div>
+                <div class="background">
+                </div>
+        <div id="command">Instruction:-use body tag selector,add background image as seen on the left side of the web page.use the image you dowloaded before.</div>
+        <h1>for Text</h1>
+        <div id="command">Instruction:-add the texts below, apply the stylings as shown on the page</div>
+                <div class="text">
+                <h1>CSS text</h1>
+                <p>sample text</p>
+                </div>
+                
+                <p class="text-2">
+                    This is some text. This is some text. This is some text.
+                    This is some text. This is some text. This is some text.
+                    This is some text. This is some text. This is some text.        This is some text. This is some text. This is some text.
+                    </p>
 
-        <h1>Fonts</h1>
-       <p class="font">This is example of google font named Fuzzy Bubbles</p>
-        <h1>image example</h1>
-        <div id="image">
-            <image src="./images/andmta_logo.jpg">   
-        </div>
-        <div></div>
+        <h1>For Fonts</h1>
+                    <div id="command">Instruction:- add a text below, link a google font named "fuzzy bubbles", apply the styling as shown below </div>
+                <p class="font">This is example of google font named Fuzzy Bubbles</p>
+        <h1>for images </h1>
+        <div id="command">Instruction:-add an image <a href="https://i.ibb.co/Dk622RC/Andmta-logo-image.jpg" target="_blank">click to download image</a>, apply boarder,size and opacity properties as shown below</div>
+        
+                    <div id="image">
+                        <image src="./images/Andmta_logo image.jpg" alt="andmta logo image">   
+                    </div>
+                    <div></div>
 
 
-        <h1 >Links Example</h1>
-        <a href="" class="link" >The link</a>
-        <h1>list example</h1>
-        <ul class="ul">
-            <li>Maths</li>
-            <li>Social Science</li>
-            <li>Physics</li>
-         </ul>
-       
+                    <h1 >Links Example</h1>
+                    <div id="command">Instruction:-add a link that redirect to google.com, apply styling properties as shown below, also give a:link {color: #030303} 
+                        a:visited {color: #ff1908}
+                        a:hover {color: #FFCC00}
+                        a:active {color: #FF00CC} stylings and understand all effects</div>
+                    <a href="https://www.google.com/" class="link" >GOOGLE</a>
+    <h1>For list </h1>
+            <div id="command">Instruction:-create unordered list and apply styling as shown below, use icon image <a href="https://i.ibb.co/ZTHRf9t/icon.png" target="_blank">click to download icon</a></div>
+                    <ul class="ul">
+                        <li>Maths</li>
+                        <li>Social Science</li>
+                        <li>Physics</li>
+                    </ul>     
+                    
+                    <div id="command">Instruction:-</div>
+                    <div id="command">Instruction:-</div>
+                    <div id="command">Instruction:-</div>                                 
+        
        
        
 
