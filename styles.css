@@ -183,4 +183,131 @@ ul li{
   /* list-style-position:none; */
   list-style-image: url(/images/icon.png);
 }
+.cursor{
+  cursor:pointer;
+  cursor: move;
+}
+.scroll{
+  height:100px;
+  width:300px;
+  overflow:auto;
+  overflow:scroll;
 
+}
+.flexbox_item{
+  background-color: coral;
+  padding: 10px;
+  border:black solid 2px;
+  height: 80px;
+  /* flex:auto; */
+  /* flex: 1; */
+  display: flex;
+  
+  
+  /* align-items: center; */
+  /* align-self: center; */
+  
+  
+  
+}
+.flexbox{
+  display: flex;
+  height: 300px;
+  background-color: cadetblue;
+ 
+  
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* flex:1; */
+  justify-content: center;
+  align-content: center;
+  
+
+}
+.flex{
+  height:100px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  /* align-self: center; */
+  align-items: center;
+   /* place-content: center; */
+  /* place-items: center;  */
+}
+.child{
+  background-color: #FFCC00;
+  padding: 10px;
+  border:black solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.parent{
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  /* grid-template-columns: repeat(4,1fr); */
+  /* grid-template-columns: repeat(12, 10%); */
+  /* grid-template-columns: repeat(12, minmax(0,1fr)); */
+  
+  grid-template-rows: 75% 25%;
+  grid-template-rows: 5cm 2cm;
+  /* gap: 20px; */
+  row-gap: 10px;
+  column-gap: 10%;
+}
+.position{
+  display:flex;
+  height:500px;
+  gap: 20px;
+  background-color: #fff;
+  
+}
+.position div{
+  border: #030303 solid 2px;
+  height:50px;
+  flex:1;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+.item1{
+  position: static;
+}
+.item2{
+  position: relative;
+  top: 40px; left: -80px;
+}
+.item3{
+  background-color: #ff1908;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  
+
+}
+.item4{
+  width:50px;
+  background-color:#FFCC00;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.item5{
+  background-color: #ff1908;
+  display: block;
+  width: 200px;
+  height:30px;
+  position: sticky;
+  top: 10px;
+
+}
