@@ -1,18 +1,20 @@
+
 #mainins{
-  background-color: red;
+  background-color: darkblue;
   color:white;
   padding:5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #command{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: yellow;
+  background-color: orange;
   font-size: 20px;
   padding : 5px;
   margin:5px;
   display:block;
   font-style: italic;
 }
+
 #command a{
   font-size: 20px;
 }
@@ -61,6 +63,26 @@ h3, p{
 .inherit p{
   color:inherit 
 }
+
+
+.over{
+  background-color: #fff;
+}
+#beforeover{
+background-color: rgb(98, 200, 255);
+color: white;
+/* color: white !important; */
+font-weight: normal ;
+/* font-weight: normal !important; */
+}
+.over{
+  background-color: #fff;
+  
+}
+
+
+
+
 /* intrinsic vs extrinsic */
 .sizing {
     text-transform: uppercase;
@@ -120,11 +142,11 @@ body{
   /* background-attachment: scroll; */
 }
 .text{
-  color:red;
+  color:red ;
   direction: rtl;
   letter-spacing: 5px;
   word-spacing: 10px;
-  text-indent: 20px;
+  /* text-indent: 20px; */
   /* text-align: center; */
   /* text-decoration: overline; */
   text-decoration: line-through;
@@ -188,10 +210,10 @@ ul li{
   cursor: move;
 }
 .scroll{
-  height:100px;
+  /* height:100px; */
   width:300px;
   overflow:auto;
-  overflow:scroll;
+  /* overflow:scroll; */
 
 }
 .flexbox_item{
@@ -201,6 +223,8 @@ ul li{
   height: 80px;
   /* flex:auto; */
   /* flex: 1; */
+  /* flex-grow: 0; */
+  /* flex-shrink: 1; */
   display: flex;
   
   
@@ -224,6 +248,12 @@ ul li{
   justify-content: center;
   align-content: center;
   
+
+}
+.flexbox_item{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
 }
 .flex{
@@ -306,8 +336,8 @@ ul li{
 .item5{
   background-color: #ff1908;
   display: block;
-  width: 200px;
-  height:30px;
+  /* width: 200px;
+  height:30px; */
   position: sticky;
   top: 10px;
 
